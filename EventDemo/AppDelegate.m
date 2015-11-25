@@ -123,7 +123,7 @@
         [self.eventFamilyFactory submitEventsBlock:trxId];
         NSLog(@"ThermostatInfoRequest & ChangeDegreeRequest sent to endpoint with id [%@]", listener);
         // Dismiss the event batch (if the batch was not submitted as shown in the previous line).
-        [self.eventFamilyFactory removeEventsBlock:trxId];
+        //[self.eventFamilyFactory removeEventsBlock:trxId];
     }
 }
 
